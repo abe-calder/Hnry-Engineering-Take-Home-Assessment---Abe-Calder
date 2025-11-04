@@ -53,4 +53,10 @@ function printTaxToPay() {
 
   // removing the $ symbol for calc, if a user enters one
   const cleanedUsersInput = usersInput.value.replace(/\$/g, "")
+
+  // asign the users input as the parameter of the calculator function above, and then assign result to a new variable
+  const taxToPay = getIncomeTaxRate(Number(cleanedUsersInput))
+
+  // aign the value of the calculation result to the taxToPayOutput h3 element (converting from number to string)
+  taxToPayOutput.innerHTML = `$${String(taxToPay)}`
 }
