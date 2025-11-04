@@ -1,3 +1,10 @@
+# Technologies Used
+
+### Typescript
+### vite
+### HTML5
+### 
+
 # Getting Started
 
 You will need the following software installed on your machine:
