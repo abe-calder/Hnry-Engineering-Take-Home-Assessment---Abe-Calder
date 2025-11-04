@@ -44,4 +44,13 @@ function getIncomeTaxRate(inputAmount: number): number {
   return totalDeductions
 }
 
-getIncomeTaxRate(220000)
+function printTaxToPay() {
+  // input element from index.html
+  const usersInput = document.getElementById("input") as HTMLInputElement
+
+  // h3 element for displaying tax output from index.html
+  const taxToPayOutput = document.getElementById("output") as HTMLElement
+
+  // removing the $ symbol for calc, if a user enters one
+  const cleanedUsersInput = usersInput.value.replace(/\$/g, "")
+}
