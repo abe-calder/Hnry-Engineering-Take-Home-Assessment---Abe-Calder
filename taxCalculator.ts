@@ -13,7 +13,12 @@ const taxBrackets = [
   {threshold: 0, rate: 0.105}
 ]
 
-function getIncomeTaxRate(amount: number): number {
+function getIncomeTaxRate(inputAmount: number): number {
+  let taxDeductions = 0
+
+  const incomeToTax = inputAmount
+
+
 
   return
 }
