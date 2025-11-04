@@ -58,5 +58,5 @@ function printTaxToPay() {
   const taxToPay = getIncomeTaxRate(Number(cleanedUsersInput))
 
   // aign the value of the calculation result to the taxToPayOutput h3 element (converting from number to string)
-  taxToPayOutput.innerHTML = `$${String(taxToPay)}`
+  taxToPayOutput.innerHTML = `$${String(taxToPay.toFixed(2))}`
 }
