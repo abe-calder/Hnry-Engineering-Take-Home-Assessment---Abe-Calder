@@ -1,9 +1,7 @@
 # Technologies Used
 
 ### Typescript
-### vite
 ### HTML5
-### 
 
 # Getting Started
 
