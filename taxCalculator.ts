@@ -36,7 +36,12 @@ function getIncomeTaxRate(inputAmount: number): number {
     }
   }
 
+  const totalDeductions: number = taxDeductions
+
+  console.log(`Tax to pay is: $${totalDeductions}`)
   
 
-  return
+  return totalDeductions
 }
+
+getIncomeTaxRate(220000)
