@@ -2,7 +2,9 @@
 
 You will need the following software installed on your machine:
 ## Node.js
+https://nodejs.org/en/download/current
 ## npm
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 # Installation
 
