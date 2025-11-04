@@ -7,7 +7,7 @@ https://nodejs.org/en/download/current
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 # Installation
-
+In a new Terminal...
 Clone the repository:
 
 Bash
@@ -26,3 +26,5 @@ In the Terminal
 `npm run dev`
 
 ## View the webpage in your browser at - localhost:5173 - or where ever the terminal directs you to
+
+### To view the code in VS code - `code .`
